@@ -79,7 +79,7 @@ textarea:focus{
     background-color: #E8DAEF;
 }
 /*  */
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
    .figura3{
        display: none;
         }
