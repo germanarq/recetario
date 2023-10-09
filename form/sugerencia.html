@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"> <!---Comentarios-->
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-US-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../estilo.css">
+        <title> Recetas Agiles</title>
+    </head>
+
+    <body>
+        <header><!-- Cabecera del body-->
+
+        </header>
+
+                
+        <main><!-- Desarrollo del body-->
+        <h2 align="Center">Segerencia/Opiniones  <img src="..//img/sugerencias.jpeg" width="50" height="50" alt="Error con img sugerencias"/></h2>
+        <form action="index.js" method="post" enctype="">
+            <label for="nombreUsuario"><b>Nombre:</b><span>* </span></label>
+            <input type="text" name="nombreUsuario" id="inputNombre"><br><br>
+            <label for="cumple"><b>Cumpleaños:</b></label>
+            <input type="date" id="cumpleaños" name="cumpleaños"><br><br>
+            <label for="email"><b>@mail:</b><span>* </span> </label>
+            <input type="email" name="email" id="inputemail"><br>
+            <h3 class="colorh3">Interes en ...</h3>
+            <div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="postres">
+                <label class="form-check-label" for="inlineCheckbox1">Postres</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="almuerzos">
+                <label class="form-check-label" for="inlineCheckbox2">Almuerzos</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="cenas">
+                <label class="form-check-label" for="inlineCheckbox3">Cenas</label>
+              </div>
+            </div>
+              
+            <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="meriendas">
+                    <label class="form-check-label" for="inlineCheckbox4">Meriendas</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="veggies">
+                    <label class="form-check-label" for="inlineCheckbox5">Veggies</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="tragos">
+                    <label class="form-check-label" for="inlineCheckbox6">Tragos/Aperitivos</label>
+                  </div>
+
+            </div>
+
+<!-- 
+            <input type="checkbox" name="postres">Postres
+            <input type="checkbox" name="almuerzos">Almuerzos
+            <input type="checkbox" name="cenas">Cenas<br>
+            <input type="checkbox" name="meriendas">Meriendas
+            <input type="checkbox" name="veggies">Veggies
+            <input type="checkbox" name="tragos">Tragos/Aperitivos<br>
+-->
+            <h3 class="colorh3">Comida Preferida</h3>
+            <select name="Comidas">
+                <option selected>Selecciona</option>
+                <option>PASTAS</option>
+                <option>CARNES ROJAS</option>
+                <option>CARNES MAGRAS</option>
+                <option>ENSALADAS</option>
+                <option>TARTAS</option>
+                <option>PESCADOS</option>
+                <option>ETNICAS</option>
+            </select>
+
+            <h3 class="colorh3">Tipo de Envio</h3>
+            <div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Queja</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Opinion</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2">
+                <label class="form-check-label" for="inlineRadio3">Sugerencias</label>
+              </div>
+            </div><br>
+ <!--            
+            <input type="radio" name="queja"> Queja
+            <input type="radio" name="opinion">
+            <label for="text">Opinion</label>
+            <input type="radio" name="sugerencia">
+            <label for="text">Sugerencia </label><br><br>
+ --> 
+            <textarea name="comentario" rows="10" cols="40">Deja tu comentario</textarea><br>
+
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </form>
+         
+           
+
+        </main>
+
+        <footer> <!-- Pie del body-->
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
